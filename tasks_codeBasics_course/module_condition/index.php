@@ -50,3 +50,9 @@
                 return null;            
         }
     }
+
+    //task 6 
+    function generateAmount($countProduct, $price){
+        $result = $countProduct ?: $price * 3;
+        return $result;
+    }
