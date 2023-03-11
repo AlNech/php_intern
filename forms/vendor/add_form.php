@@ -10,10 +10,11 @@
         $comment =  htmlspecialchars($_POST['comment']);
 
 
-        $lang = "";
+        $lang = array();
         foreach ($lang_prog as $row){
-            $lang .= $row . " ";
+            array_push($lang, $row);
         }
+        $lang = json_encode($lang);
 
         mysqli_query($connect, "INSERT INTO `add_form`(`id`, `age`, `gender`, `lang_prog`, `country`, `comment`) VALUES (0,'$age','$gender','$lang','$country','$comment')");
         header("Location: ../index.php");
