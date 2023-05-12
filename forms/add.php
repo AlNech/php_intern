@@ -30,10 +30,10 @@
         
         <div class="col-md-6 d-flex flex-column lang_prog">
             <label for="">Знание языков программирования</label>
-            <div class="col-md-6 d-flex flex-row justify-content-between mx-4"><span>PHP</span><input type="checkbox" name="lang_prog" value="PHP"></input></div>
-            <div class="col-md-6 d-flex flex-row justify-content-between mx-4"><span>Java</span><input type="checkbox" name="lang_prog" value="Java"></input></div>
-            <div class="col-md-6 d-flex flex-row justify-content-between mx-4"><span>JavaScript</span><input type="checkbox" name="lang_prog" value="JavaScript"></input></div>
-            <div class="col-md-6 d-flex flex-row justify-content-between mx-4"><span>C#</span><input type="checkbox" name="lang_prog" value="C#"></input>
+            <div class="col-md-6 d-flex flex-row justify-content-between mx-4"><span>PHP</span><input type="checkbox" name="lang_prog[]" value="PHP"></input></div>
+            <div class="col-md-6 d-flex flex-row justify-content-between mx-4"><span>Java</span><input type="checkbox" name="lang_prog[]" value="Java"></input></div>
+            <div class="col-md-6 d-flex flex-row justify-content-between mx-4"><span>JavaScript</span><input type="checkbox" name="lang_prog[]" value="JavaScript"></input></div>
+            <div class="col-md-6 d-flex flex-row justify-content-between mx-4"><span>C#</span><input type="checkbox" name="lang_prog[]" value="C#"></input>
         </div>
         
         <div class="col-md-6 d-flex flex-column country mt-3 mb-3">
